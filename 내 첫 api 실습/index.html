@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>날씨</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="title">현재 날씨</div>
+  <div>한글 O , 정확 X</div>
+  <div class="User_input">
+    <input id="city" onkeyup="city_set(),enter_key()" placeholder="도시명을 입력하세요">
+    <button type="button" onclick="a()">확인</button>
+  </div>
+  <div class="city_name"></div>
+  <div class="temp"></div>
+  <div class="feels_like"></div>
+  <div class="weather"></div>
+  
+</body>
+<script src="main.js"></script>
+</html>

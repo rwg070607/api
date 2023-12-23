@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    margin: 50px;
+    font-size: 30px;
+}
+input{
+    margin-right: 15px;
+}
+.temp,.weather{
+    margin-top: 40px;
+}
+.User_input{
+    margin: 25px;
+}
